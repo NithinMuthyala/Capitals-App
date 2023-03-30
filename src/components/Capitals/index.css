@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 0px 0px 0px 15px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 50%;
+    padding: 18px 0px 18px 15px;
+  }
+}
+.heading {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.box-select {
+  height: 35px;
+  width: 130px;
+  border-radius: #cbd2d9;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.option-text {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.description {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: 500;
+  padding-right: 10px;
+  padding-left: 10px;
+}
